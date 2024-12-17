@@ -1,0 +1,67 @@
+/* General Form Styles */
+.form-with-validation {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-with-validation label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-with-validation input[type="text"],
+.form-with-validation input[type="email"],
+.form-with-validation input[type="file"],
+.form-with-validation textarea,
+.form-with-validation select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    transition: border-color 0.3s ease;
+}
+
+.form-with-validation input:focus,
+.form-with-validation textarea:focus,
+.form-with-validation select:focus {
+    border-color: #00cec9;
+    outline: none;
+}
+
+.form-with-validation textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+/* Submit Button */
+.form-submit {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1em;
+    background-color: #2d3436;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-submit:hover {
+    background-color: #00cec9;
+}
+
+/* Error Messages */
+.form-with-validation .error {
+    color: #d63031;
+    font-size: 0.9em;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}

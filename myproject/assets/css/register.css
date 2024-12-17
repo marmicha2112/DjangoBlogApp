@@ -1,0 +1,60 @@
+
+/* Styling for the section */
+section {
+    max-width: 500px;
+    margin: 5% auto;
+    padding: 2em;
+    background-color: #f3f4f6;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Heading styling */
+h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 0.5em;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+/* Input fields */
+.form-with-validation input {
+    width: 90%;
+    padding: 0.8em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    outline: none;
+    transition: border 0.3s;
+}
+
+/* Input focus effect */
+.form-with-validation input:focus {
+    border: 1px solid #007bff;
+}
+
+/* Submit button styling */
+.form-submit {
+    padding: 0.8em 2em;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Hover effect for the button */
+.form-submit:hover {
+    background-color: #0056b3;
+}
